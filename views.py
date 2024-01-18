@@ -7,3 +7,5 @@ def setcookie(request):
   return response
 
 def getcookie(request):
+  github = request.COOKIES("Amcool-alphonce")
+  return HttpResponse("Him on github @ " + github)
