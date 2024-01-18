@@ -5,5 +5,6 @@ from store import views
 urlpatterns = [
   path('admin/', admin.site.urls),
   path('index/', views.index),
-  path('')
+  path('scookie/', views.setcookie),
+  path('gcookie/', views.getcooki)
 ]
