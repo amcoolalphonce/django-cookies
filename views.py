@@ -4,3 +4,6 @@ from django.http import HttpRespnse
 def setcookie(request):
   response = HttpResponse("Set cookies")
   response.setcookie("Amcool-alphonce", "github.com/amcoolalphonce")
+  return response
+
+def getcookie(request):
