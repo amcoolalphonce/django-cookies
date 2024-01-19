@@ -8,3 +8,4 @@ urlpatterns = [
   path('scookie/', views.setcookie),
   path('gcookie/', views.getcooki)
 ]
+# assuming that you have a  python django app already
