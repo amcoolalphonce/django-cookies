@@ -1,2 +1,2 @@
-# django-cookies
-How to handle cookies
+# Django Cookies 
+How to handle cookies in Python Django
